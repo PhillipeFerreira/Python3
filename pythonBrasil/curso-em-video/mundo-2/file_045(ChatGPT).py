@@ -1,3 +1,5 @@
+# Made by ChatGPT
+
 from random import randint
 
 # Opção do jogador
