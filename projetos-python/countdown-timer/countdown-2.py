@@ -10,3 +10,4 @@ def countdonw(t):
 	print('TIME IS OVER!')
 	
 countdonw(10)
+# To choose the time, just ask the user to enter with a integer number.

@@ -1,4 +1,4 @@
-from main_beta_oo2 import trafo
+from maintrafo import trafo
 
 trafo1 = trafo()
 
