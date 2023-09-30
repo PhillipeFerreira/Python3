@@ -1,2 +1,2 @@
 # Python3
-Python3 exercises from python.org
+The journey of learning Python 3 and getting to know the programming world. 
