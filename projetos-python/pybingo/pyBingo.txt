@@ -1,0 +1,105 @@
+PyBingo
+
+import random
+
+bingo_sheet = [10, 20, 30, 40, 50]
+# bingo_random = random.randint(0, 500)
+bingo_choices = [0]
+
+for num in range(0, 500):
+    num += 1
+    bingo_choices.append(num)
+
+    if num in bingo_sheet:
+        print(f'You got {num}')
+
+# Output:
+# You got 10
+# You got 20
+# You got 30
+# You got 40
+# You got 50
+
+
+-------------------------------------
+'''
+x = 0
+while x < 100:
+    print(x)
+    x += 1
+    if x == 60:
+        print("x é igual a 60")
+        break
+else:
+    print("fim while")
+
+
+
+import random
+
+bingo_sheet = [10, 20, 30, 40, 50]
+# bingo_random = random.randint(0, 500)
+bingo_random = range(0, 60) 
+bingo_choices = [0]
+
+# for num in range(0, 60):
+for num in bingo_random:
+    # num += 1
+    bingo_choices.append(num)
+    print(bingo_choices)
+
+    if num in bingo_sheet:
+        print(f'You got {num}')
+
+
+
+
+
+num1 = [10, 20, 30, 40, 50]
+num2 = range(0, 60) 
+choices = [0]
+
+if num1 in num2:
+    print('You won!')
+else:
+
+
+'''
+
+from bisect import bisect_left
+
+test_list_set = [ 1, 6, 3, 5, 3, 4 ] 
+test_list_bisect = [ 1, 6, 3, 5, 3, 4 ] 
+  
+print("Checking if 4 exists in list ( using set() + in) : ") 
+test_list_set = set(test_list_set) 
+if 4 in test_list_set : 
+    print ("Element Exists") 
+  
+print("Checking if 4 exists in list ( using sort() + bisect_left() ) : ") 
+test_list_bisect.sort() 
+if bisect_left(test_list_bisect, 4): 
+    print ("Element Exists") 
+
+
+
+
+
+'''
+for num in range(10):
+    size_ur = len(ur_ones)
+    size_pc = len(pc_ones)
+    
+    if ur_sheet == ur_ones:
+        print(f'\nYou won!')
+
+    elif pc_sheet == pc_ones:
+        print('\nComputer won!')
+
+    elif ur_ones == ur_sheet and pc_ones == pc_sheet:
+        print('\nBoth won!')
+
+    else: 
+        print('\nNo one won...')
+'''
+
