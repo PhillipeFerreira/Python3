@@ -1,18 +1,17 @@
-n = int(input("Veja se um número é primo: "))
-cont = 0
-i = 0
+# Sequência Fibonacci
 
-while i <= n or cont < 2:
-    i = i + 1
-    x = n % i
-    if x == 0:
-        cont = cont + 1
-    else:# para quando entra com o numero 1
-        print('Não é primo')
-        break
+n = int(input('How many terms? '))
+t1 = 0 
+t2 = 1
+print('Termos: {} - {}'.format(t1,t2),end='')
 
-if cont <= 2 and n !=1:
-    print("É primo")
-else:
+cont = 3
 
-    print("Não é primo")
+while cont <=n:
+    t3 = t1 + t2
+    print('- {} '.format(t3), end='')
+    t1 = t2
+    t2 = t3
+    cont +=1
+
+print('- FIM')
