@@ -1,0 +1,27 @@
+lanches = ('pudim', 'bolo','pudim',)
+print('Eu quero comer suco com', lanches[-2])
+
+'''
+Fatiamento de variáveis
+
+tuple= ('elemento1', 'elemento2', 'elemento3', 'elemento4')
+	'elemento1' = [0]; 'elemento2'=[1]; ...
+
+[0:2] -> Do elemento 0, vá até o 1: o último é eliminado
+[1:] -> Do elemento 1, vá até o último
+	[numero:] -> : sem numero vai até o último
+	
+[-1] -> Retorna elemento na última posição: inverte o número referente a posição
+
+len(tuple): retorna quantidade de elementos
+
+# As tuplas são IMUTÁVEIS 
+# A nova versão do Python permite criar tuplas sem parênteses
+	tuple= 'elemento1', 'elemento2', 'elemento3', 'elemento4'
+
+# Função tuple.cont(elemento) ->.cont retorna as vezes que o elemento em () aparece na tupla
+# Função tuple.index(elemento, posição para começar a ler) -> retorna a posição do elemento(primeira ocorrência se houver repetidos)
+	print(lanches.index('pudim',1)) -> retorna 2
+	print(lanches.index('pudim')) -> retorna 0
+
+'''
