@@ -27,6 +27,6 @@ while True:
 			ced = 1
 		tced = 0
 		if total == 0:
-			print("Sem valores para sacar")
+			#print("Sem valores para sacar")
 			break
 
